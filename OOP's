@@ -1,0 +1,60 @@
+to using class  OOP's
+class Even_odd:
+    def get_num(self,n):
+        self.n=n
+    def cal(self):
+        if self.n%2==0:
+            print("even")
+        else:
+            print("odd")
+E1=Even_odd()
+E1.get_num(10)
+E1.cal()
+
+student details by using class
+
+class Student:
+    def get_detail(self,n,a,e):
+        self.n=n
+        self.a=a
+        self.e=e
+    def show_details(self):
+        print("name",self.n)
+        print("age",self.a)
+        print("address",self.e)
+S1=Student()
+S1.get_detail("jayesh","18","ZCOER")
+S1.show_details()
+
+
+
+name=input("")
+age=int(input(""))
+address=input("")
+class Student:
+    def get_detail(self,n,a,e):
+        self.n=n
+        self.a=a
+        self.e=e
+    def show_details(self):
+        print("name",self.n)
+        print("age",self.a)
+        print("address",self.e)
+S1=Student()
+S1.get_detail(name,age,address)
+S1.show_details()
+check odd even upto n term
+class Even_odd:
+    def get_num(self,n):
+        self.n=n
+    def cal(self):
+        for i in range(0,self.n):
+            if i%2==0:
+                print("even=",i)
+            else:
+                print("odd=",i)
+e1=Even_odd()
+e1.get_num(20)
+e1.cal()
+            
+
