@@ -1,0 +1,10 @@
+try:
+    a=10
+    b=1
+    c=a/b
+except:
+    print("error")
+else:
+    print("",c)
+finally:
+    print("good")
