@@ -1,0 +1,33 @@
+class Employee:
+    def __init__ (self,Name,age,salary,gender):
+        self.name=Name
+        self.age=age
+        self.salery=salary
+        self.gender=gender
+    def employee_details(self):
+        print("name of the employee :",self.name)
+        print("age of the employee:",self.age)
+        print("salery of th emplyoee:",self.salery)
+        print("enter gender of the employee:",self.gender)
+e1=Employee("jayesh",18,45000,"male")
+e1.employee_details()
+
+single inheritance
+class vehicle:
+    def __init__(self,miledage,cost):
+        self.miledage=miledage
+        self.cost=cost
+    def show_details(self):
+        print(" i am a vehicle")
+        print("miledge of this vehicle is =",self.miledage)
+        print("cost of vehicle is ",self.cost)
+v1=vehicle(50,50000)
+v1.show_details()
+
+class car(vehicle):
+    def show_car(self):
+        print("i am a car")
+c1=car(200,1200)
+c1.show_car()
+c1.show_details()
+
