@@ -1,0 +1,40 @@
+#method overloading
+
+class Rp:
+    def display(self,name=""):
+        print("welcome to zeal college :",name)
+obj=Rp()
+obj.display()
+obj.display("jayesh")
+obj.display("python")
+
+# method over riding
+
+class India:
+    def  display(self):
+        print("welcome to india")
+class MH(India):
+    def display(self):
+        super().display()
+        print("welcome to MH")
+obj=MH()
+obj.display()   
+
+# encapsulation in python\
+
+
+class super:
+    def __init__(self):
+        self._value1=100     #protected value
+        self.__value2=200    #private value
+    def display(self):
+        print(self._value1)
+        print(self.__value2)
+class sub(super):
+    def show(self):
+        print(self._value1)
+        print(__value2)      #private value
+# obj= super
+#obj.display()
+obj=sub()
+obj.show()
