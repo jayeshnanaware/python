@@ -1,0 +1,77 @@
+1)create a function to check weather a number is less than 10 or not
+
+# n=int(input("enter a number:"))
+# def check():
+#     if n<10:
+#         print("number is less than 10")
+#     else:
+#         print("number is greater than 10")
+# check()
+
+
+# #2)create a function in reverse string
+
+# a=input("enter a string")
+# def reverse(a):
+#     print(a[::-1])
+# reverse(a)
+
+# 3)create a function to print even number upto n
+
+# def even(num):
+#     for k in range(num):
+#         if k%2==0:
+#             print(k,end=" ")
+# even(1001)
+
+# 4)create a functiuon  to check veather a person eligible or not
+# age=int(input("enter your age= "))
+# def voting():
+#     if age>18:
+#         print("you are eligible for voting")
+#     else:
+#         print("you are not eligible for voting")
+# voting()
+
+# 5)create a function to find the largest among 3 number
+# a=int(input("enter a number="))
+# b=int(input("enter a number=")) 
+# c=int(input("enter a number="))
+# def large():
+#     if a>b and a>c:
+#         print("a is largest")
+#     elif b>a and b>c:
+#         print("b is largest value")
+#     else:
+#         print("c is largest value")
+# large()
+
+
+# 6) create a function a multiplication of table of number
+
+# def table(q):
+#     for i in range(1,11):
+#         print(q*i)
+#     i=i+1
+# table(4)       
+
+# 7) create sum of function all elements in list
+
+
+# def sum(item_list):
+#     sum = 0
+#     for l in item_list:
+#         sum = sum + l
+#     return sum
+# my_list=[3,44,78,22,4]
+# print(sum(my_list))
+
+# 8) create a function to  that accept given list and return list with distinct values 
+#  M=[32,44,,7,7,21,4,32,1,25,26,44,21]
+# 9)create a function to reverse 3 digit
+# a=input("enetr  a string")
+# def rev(a):
+     
+
+
+
